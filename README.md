@@ -1,4 +1,4 @@
-# Mouse Scroll Tracker
+# Mouse Scroll Test
 
 https://dzapeka.github.io/mouse-scroll-tracker/
 
