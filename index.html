@@ -4,23 +4,18 @@
     <meta charset="UTF-8" />
     <title>Mouse Scroll Tracker</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-      #scrollChart {
-        max-height: 400px;
-        width: 100%;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h3>Scroll Event Tracker</h3>
+    <h3 class="page-title">Scroll Event Tracker</h3>
     <canvas id="scrollChart"></canvas>
-    <div>
-      <button onclick="clearChart()">Clear Chart</button>
-    </div>
     <div id="scrollInfo">
       <p>Scroll Up: <span id="scrollUpCount">0</span></p>
       <p>Scroll Down: <span id="scrollDownCount">0</span></p>
     </div>
-    <script src="scrollTracker.js"></script>
+    <div>
+      <button onclick="clearChart()" class="clear-button">Clear Chart</button>
+    </div>
+    <script src="scroll-tracker.js"></script>
   </body>
 </html>
