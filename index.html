@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <title>Mouse Scroll Tracker</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      #scrollChart {
+        max-height: 400px;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <h3>Scroll Event Tracker</h3>
-    <canvas id="scrollChart" width="400" height="200"></canvas>
+    <canvas id="scrollChart"></canvas>
     <div>
       <button onclick="clearChart()">Clear Chart</button>
     </div>
